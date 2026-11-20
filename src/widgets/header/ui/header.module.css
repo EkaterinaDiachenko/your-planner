@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 132px;
+  padding: 30px 56px;
+  background-color: #fcebb2;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700;
+  color: #b51220;
+  text-decoration: none;
+}
+
+.month {
+  min-width: 150px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #b51220;
+  font-weight: 700;
+  text-align: center;
+}
