@@ -19,12 +19,11 @@ npm run dev
 ```text
 src/
   app/                 # Инициализация и общие стили
-  assets/
-  entities/
-  features/
   pages/               # Страница планера
-  shared/
+  shared/              # Общие функции работы с датами
   widgets/
+    |
+    calendar/          # Компонент календаря
 ```
 
 ### Полезные команды
