@@ -1,0 +1,53 @@
+.calendar {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.weekdays {
+  display: flex;
+  gap: 10px;
+  padding: 4px 16px;
+  border-radius: 10px;
+  background-color: #b51220;
+}
+
+.weekday {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.weekdayLabel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #222;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 30px 16px;
+  border-radius: 22px;
+  background-color: #b51220;
+}
+
+.day {
+  display: flex;
+  flex: 0 0 calc((100% - 60px) / 7);
+  aspect-ratio: 1;
+  border-radius: 22px;
+  background-color: #fff;
+}
